@@ -33,6 +33,19 @@ function roolTheDice() {
         diceNum1.setAttribute('src','dice'+randomNumber1+'.png');
         diceNum2.setAttribute('src','dice'+randomNumber2+'.png');
 
+        //Determine the winner
+        if(randomNumber1 === randomNumber2) {
+            result.innerHTML = "Draw!"
+        } 
+        else if (randomNumber1 > randomNumber2) {
+            result.innerHTML = (player1+" WIN!");
+        }
+        else {
+            result.innerHTML = (player2+" WIN!");
+        }
+
+        }
+
     }, 2500);
     
 }
