@@ -6,7 +6,22 @@ let player2 = "Player 2";
 //player Nmae editing
 function editNames() {
     player1 = prompt("Change player 1 Name");
+
+    if (player1.length > 11) {
+        alert("Player name must be no longer than 11 characters, Please Try Again");
+        player1 = prompt("Change player 1 Name");
+    } 
+
     player2 = prompt("Change player 2 Name");
+
+    if (player2.length > 11) {
+        alert("Player name must be no longer than 11 characters, Please Try Again");
+        player2 = prompt("Change player 2 Name");
+    } 
+        
+    if (player2.length > 11) {
+        alert("Player name must be no longer than 11 characters, Please Try Again");
+    } 
 
     if(player1.length < 1 || player2.length < 1 ) {
         alert("please enter valid name")
