@@ -1,7 +1,16 @@
+/* Google font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
 .container {
     width: 70%;
     margin: auto;
     text-align: center;
+}
+
+.dice-container {
+    max-width: 100%;
+    text-align: center;
+    margin-bottom: 100px;
 }
 
 .dice {
@@ -11,23 +20,23 @@
 }
 
 body {
-    background-color: #042f4b;
+    background-color: #6b7b7c;
     margin: 0;
 }
 
 h1 {
     margin: 30px;
-    font-family: "Lobster", cursive;
-    text-shadow: 5px 0 #232931;
+    font-family: "Roboto Mono", monospace;
+    text-shadow: 5px 0 #d9dfe6;
     font-size: 4.5rem;
-    color: #4ecca3;
+    color: #ccac4e;
     text-align: center;
 }
 
 p {
     font-size: 2rem;
-    color: #4ecca3;
-    font-family: "Indie Flower", cursive;
+    color: #ccac4e;
+    font-family: "Roboto Mono", monospace;
 }
 
 img {
@@ -39,13 +48,14 @@ img {
 }
 
 .btn {
-    background: #4ecca3;
-    font-family: "Indie Flower", cursive;
+    background: #ccac4e;
+    font-family: "Roboto Mono", monospace;
     border-radius: 7px;
     color: #ffff;
     font-size: 30px;
     padding: 16px 25px 16px 25px;
     text-decoration: none;
+    border: none;
 }
 
 .btn:hover {
