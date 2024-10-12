@@ -37,13 +37,11 @@ function roolTheDice() {
         if(randomNumber1 === randomNumber2) {
             result.innerHTML = "Draw!"
         } 
-        else if (randomNumber1 > randomNumber2) {
+        else if(randomNumber1 > randomNumber2) {
             result.innerHTML = (player1+" WIN!");
         }
         else {
             result.innerHTML = (player2+" WIN!");
-        }
-
         }
 
     }, 2500);
