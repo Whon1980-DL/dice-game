@@ -30,6 +30,9 @@ function roolTheDice() {
         let randomNumber1 = Math.floor(Math.random() * 6) + 1;
         let randomNumber2 = Math.floor(Math.random() * 6) + 1;
 
+        diceNum1.setAttribute('src','dice'+randomNumber1+'.png');
+        diceNum2.setAttribute('src','dice'+randomNumber2+'.png');
+
     }, 2500);
     
 }
